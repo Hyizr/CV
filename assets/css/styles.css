@@ -1,0 +1,70 @@
+body{
+    max-width: 1160px;
+    font-size: 1em;
+    margin: auto;
+    border-right: 100px solid white;
+    border-left: 100px solid white;
+    overflow:scroll;
+    font-family: "Raleway", serif;
+}
+@font-face {
+    font-family: "Lato";
+    src: url(../fonts/Lato-Regular.ttf) format('truetype');
+    src: url(../fonts/Lato-Bold.ttf) format('truetype');
+    src: url(../fonts/Lato-Italic.ttf) format('truetype');
+}
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-Bold.ttf) format('truetype');
+    src: url(../fonts/Raleway-Italic.ttf) format('truetype');
+    src: url(../fonts/Raleway-Regular.ttf) format('truetype');
+}
+h1, h2, h3{
+    font-family: "Lato", serif;
+}
+h3{
+    color: #17abb3;
+}
+.stars{
+    color: #17abb3;
+ 
+}
+.date{
+    color: #17abb3;
+}
+.barre1{
+    border: rgb(214, 213, 213) 1px solid;
+    width: 350px;
+}
+.barre2{
+    border: rgb(214, 213, 213) 1px solid;
+    width: 600px;
+}
+header{
+    display:flex;
+    background-color: #17abb3;
+    color: white;
+    
+}
+.main-content{
+    display: flex;
+    max-width: 1160px;
+}
+.left-content{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: #e3e3e3;
+    padding: 50px;
+}
+main{
+    display: flex;
+    width: 700px;
+    flex-direction: column;
+    padding: 50px;
+}
+
+footer{
+    display:flex;
+    background-color: #17abb3;
+}
