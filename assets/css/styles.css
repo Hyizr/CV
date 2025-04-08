@@ -27,10 +27,56 @@ h3{
 }
 .stars{
     color: #17abb3;
+    font-size: 30px;
     
 }
 .size{
 font-size: 12px;
+}
+.size2{
+    font-size: 20px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    
+}
+header, .picture{
+    display: flex;
+    align-items: center;
+}
+.picture{
+    width: 150px;
+    height: 150px;
+    
+    
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border-color: #e3e3e3;
+    border-style: solid;
+    margin-left: 100px;
+}
+header, .contact-infos{
+    display: flex;
+    justify-content: center;
+    
+}
+.contact-infos, .infos1{
+    gap: 30px;
+    
+}
+.name{
+    margin-left: 30px;
+    font-size: 40px;
+}
+.infos{
+    margin-right: 200px;
 }
 
 .space{
@@ -43,6 +89,7 @@ font-size: 12px;
 .flex{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .level{
     display: flex;
@@ -87,4 +134,13 @@ main{
 footer{
     display:flex;
     background-color: #17abb3;
+}
+li{
+    list-style-type: square;
+    color: #17abb3;
+    
+    
+}
+.text{
+    color: black;
 }
