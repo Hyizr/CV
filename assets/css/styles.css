@@ -4,7 +4,6 @@ body{
     margin: auto;
     border-right: 100px solid white;
     border-left: 100px solid white;
-    overflow:scroll;
     font-family: "Raleway", serif;
 }
 @font-face {
@@ -15,9 +14,10 @@ body{
 }
 @font-face {
     font-family: "Raleway";
+    src: url(../fonts/Raleway-Regular.ttf) format('truetype');
     src: url(../fonts/Raleway-Bold.ttf) format('truetype');
     src: url(../fonts/Raleway-Italic.ttf) format('truetype');
-    src: url(../fonts/Raleway-Regular.ttf) format('truetype');
+    
 }
 h1, h2, h3{
     font-family: "Lato", serif;
@@ -27,8 +27,28 @@ h3{
 }
 .stars{
     color: #17abb3;
- 
+    
 }
+.size{
+font-size: 12px;
+}
+
+.space{
+    line-height: 1px;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.level{
+    display: flex;
+    justify-content: end;
+}
+
 .date{
     color: #17abb3;
 }
