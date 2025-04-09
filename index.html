@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Prénom Nom</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/cv.png">
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
@@ -11,7 +12,10 @@
         <!-- En-tête -->
         <header>
             <div class="picture">
-                <img src="./assets/img/Photo de profil.jpg" alt="Photo de profil" class="profile-pic">
+                <a href="./assets/img/Photo de profil.jpg" target="_blank">
+                    <img src="./assets/img/Photo de profil.jpg" alt="Photo de profil" class="profile-pic">
+                </a>
+                
             </div>
             <div class="infos">
                 <div class="fullname">
@@ -35,7 +39,8 @@
         <div class="main-content">
             <!-- Colonne de gauche -->
             <aside class="left-content">
-                <section>
+                
+                <section class=competence>
                     <h3>Compétences</h3>
                     <hr class="barre1">
                     <div>
@@ -73,11 +78,13 @@
                         <li><span class="text">Ecologie</span></li>
                     </ul>
                 </section>
+                
             </aside>
+        
 
             <!-- Colonne de droite -->
             <main>
-                <section>
+                <section class="profil">
                     <h3>Profil</h3>
                     <hr class="barre2">
                     <p>Lorem, ipsum dolor sit amet consectetur adipiscing elit. Sed doloribus iste cumque odio! Sed voluptatem quidem cum quam aut voluptatem, consequuntur sunt repellendus porro eaque unde deleniti dicta perferendis magni debitis doloremque vitae voluptas. Cum magni! Lorem ipsum dolor sit amet consectetur adipiscing elit. Sed doloribus iste cumque odio! Sed voluptatem quidem cum quam aut voluptatem, consequuntur sunt repellendus porro eaque unde deleniti dicta perferendis magni debitis doloremque vitae voluptas. Cum magni!</p>
@@ -138,11 +145,16 @@
 
         <!-- Pied de page -->
         <footer>
-            <div class="social-links">
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
+            <div class="links">
+                <div class="social-links">
+                    <img src="./assets/img/github.png" alt="Github">
+                    <img src="./assets/img/instagram.png" alt="Instagram">
+                    <img src="./assets/img/linkedin.png" alt="Linkedin">
+                </div>
+                <div class="maj">
+                    <p>Mis à jour le 04/04/2025</p>
+                </div>
             </div>
-            <p>Mis à jour le 04/04/2025</p>
         </footer>
     </div>
 </body>
